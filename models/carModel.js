@@ -14,7 +14,8 @@ const carSchema = new mongoose.Schema({
     ] , 
 
     rentPerHour : {type : Number , required : true},
-    location : {type: String, required: true}
+    location : {type: String, required: true},
+    ownerContactNumber: {type: String, required: true}
 
 }, {timestamps : true}
 
